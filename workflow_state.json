@@ -1,0 +1,16 @@
+{
+  "agents": {
+    "lexassist_agent": {
+      "agent_id": "698588cae17e33c11eed19ce",
+      "name": "LexAssist Legal Agent",
+      "description": "Comprehensive legal assistant that provides research, case analysis, document drafting, procedural guidance, and strategic advice. Adapts responses based on user type (lawyer, judge, student, paralegal) and query type (research, drafting, strategy, learning). Maintains Indian jurisdiction focus with expertise in Criminal Law and Corporate Law.",
+      "node_id": "lexassist_agent",
+      "has_knowledge_base": true,
+      "rag_id": "698588a9de7de278e55d284a",
+      "rag_name": "lexassistlegalkbc7bl"
+    }
+  },
+  "workflow_pattern": "single_agent",
+  "created_at": "2026-02-06T00:00:00Z",
+  "total_agents": 1
+}

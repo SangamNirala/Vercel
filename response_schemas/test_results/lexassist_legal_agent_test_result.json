@@ -1,0 +1,28 @@
+{
+  "agent_name": "LexAssist Legal Agent",
+  "agent_id": "698588cae17e33c11eed19ce",
+  "test_message": "What are the landmark Supreme Court judgments on Section 377 IPC?",
+  "expected_purpose": "Comprehensive legal assistant for Indian Criminal Law and Corporate Law",
+  "timestamp": "2026-02-06T06:25:11.688576",
+  "is_valid_json": true,
+  "validation_errors": [],
+  "actual_response": {
+    "status": "success",
+    "result": {
+      "summary": "The landmark Supreme Court judgments on Section 377 of the Indian Penal Code involve its decriminalization and the recognition of LGBT rights in India.",
+      "detailed_analysis": "Section 377 IPC, which criminalized consensual homosexual acts, was challenged in several cases leading to significant judgments. The key Supreme Court rulings include: \n1. **Suresh Kumar Koushal v. Naz Foundation (2014)**: The Supreme Court set aside a Delhi High Court judgment that had decriminalized homosexuality, effectively reinstating Section 377 IPC.\n2. **Navtej Singh Johar v. Union of India (2018)**: The Supreme Court unanimously held that consensual same-sex relationships between adults are not a crime, thus decriminalizing part of Section 377 IPC. This judgment was hailed as a milestone for LGBT rights in India. It recognized the right to equality and privacy for homosexual individuals and invalidated previous legal interpretations restricting these rights.",
+      "case_law": [
+        "Navtej Singh Johar v. Union of India (2018) 10 SCC 1",
+        "Suresh Kumar Koushal v. Naz Foundation (2014) 1 SCC 1"
+      ],
+      "statutory_provisions": "Section 377 IPC was partly invalidated regarding consensual sex between adults by the 2018 Supreme Court judgment.",
+      "practical_guidance": "As a result of the Navtej Singh Johar judgement, consensual homosexual acts are no longer criminal offenses. Legal professionals should ensure they are familiar with the changes in law concerning human rights and equality to provide accurate guidance.",
+      "disclaimer": "This response is for informational purposes only and should not be construed as legal advice. For specific legal advice, consult a qualified legal professional."
+    },
+    "metadata": {
+      "agent_name": "LexAssist Legal Agent",
+      "timestamp": "2023-11-24T09:02:33Z"
+    }
+  },
+  "raw_response": "{\n  \"status\": \"success\",\n  \"result\": {\n    \"summary\": \"The landmark Supreme Court judgments on Section 377 of the Indian Penal Code involve its decriminalization and the recognition of LGBT rights in India.\",\n    \"detailed_analysis\": \"Section 377 IPC, which criminalized consensual homosexual acts, was challenged in several cases leading to significant judgments. The key Supreme Court rulings include: \\n1. **Suresh Kumar Koushal v. Naz Foundation (2014)**: The Supreme Court set aside a Delhi High Court judgment that had decriminalized homosexuality, effectively reinstating Section 377 IPC.\\n2. **Navtej Singh Johar v. Union of India (2018)**: The Supreme Court unanimously held that consensual same-sex relationships between adults are not a crime, thus decriminalizing part of Section 377 IPC. This judgment was hailed as a milestone for LGBT rights in India. It recognized the right to equality and privacy for homosexual individuals and invalidated previous legal interpretations restricting these rights.\",\n    \"case_law\": [\n      \"Navtej Singh Johar v. Union of India (2018) 10 SCC 1\",\n      \"Suresh Kumar Koushal v. Naz Foundation (2014) 1 SCC 1\"\n    ],\n    \"statutory_provisions\": \"Section 377 IPC was partly invalidated regarding consensual sex between adults by the 2018 Supreme Court judgment.\",\n    \"practical_guidance\": \"As a result of the Navtej Singh Johar judgement, consensual homosexual acts are no longer criminal offenses. Legal professionals should ensure they are familiar with the changes in law concerning human rights and equality to provide accurate guidance.\",\n    \"disclaimer\": \"This response is for informational purposes only and should not be construed as legal advice. For specific legal advice, consult a qualified legal professional.\"\n  },\n  \"metadata\": {\n    \"agent_name\": \"LexAssist Legal Agent\",\n    \"timestamp\": \"2023-11-24T09:02:33Z\"\n  }\n}"
+}

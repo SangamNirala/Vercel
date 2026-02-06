@@ -1,0 +1,63 @@
+{
+  "agent_name": "LexAssist Legal Agent",
+  "agent_id": "698588cae17e33c11eed19ce",
+  "agent_purpose": "Comprehensive legal assistant providing research, case analysis, document drafting, procedural guidance, and strategic advice for Indian Criminal Law and Corporate Law",
+  "description": "Response schema for LexAssist Legal Agent - structures legal research, case analysis, statutory provisions, practical guidance with proper disclaimers",
+  "response_schema": {
+    "status": "string",
+    "result": {
+      "summary": "string",
+      "detailed_analysis": "string",
+      "case_law": [
+        "string"
+      ],
+      "statutory_provisions": "string",
+      "practical_guidance": "string",
+      "disclaimer": "string"
+    },
+    "metadata": {
+      "agent_name": "string",
+      "timestamp": "string"
+    }
+  },
+  "example_response": {
+    "status": "success",
+    "result": {
+      "summary": "The landmark Supreme Court judgments on Section 377 of the Indian Penal Code involve its decriminalization and the recognition of LGBT rights in India.",
+      "detailed_analysis": "Section 377 IPC, which criminalized consensual homosexual acts, was challenged in several cases leading to significant judgments. The key Supreme Court rulings include: \n1. **Suresh Kumar Koushal v. Naz Foundation (2014)**: The Supreme Court set aside a Delhi High Court judgment that had decriminalized homosexuality, effectively reinstating Section 377 IPC.\n2. **Navtej Singh Johar v. Union of India (2018)**: The Supreme Court unanimously held that consensual same-sex relationships between adults are not a crime, thus decriminalizing part of Section 377 IPC. This judgment was hailed as a milestone for LGBT rights in India. It recognized the right to equality and privacy for homosexual individuals and invalidated previous legal interpretations restricting these rights.",
+      "case_law": [
+        "Navtej Singh Johar v. Union of India (2018) 10 SCC 1",
+        "Suresh Kumar Koushal v. Naz Foundation (2014) 1 SCC 1"
+      ],
+      "statutory_provisions": "Section 377 IPC was partly invalidated regarding consensual sex between adults by the 2018 Supreme Court judgment.",
+      "practical_guidance": "As a result of the Navtej Singh Johar judgement, consensual homosexual acts are no longer criminal offenses. Legal professionals should ensure they are familiar with the changes in law concerning human rights and equality to provide accurate guidance.",
+      "disclaimer": "This response is for informational purposes only and should not be construed as legal advice. For specific legal advice, consult a qualified legal professional."
+    },
+    "metadata": {
+      "agent_name": "LexAssist Legal Agent",
+      "timestamp": "2023-11-24T09:02:33Z"
+    }
+  },
+  "is_actual_tested": true,
+  "test_timestamp": "2026-02-06T06:25:11.689267",
+  "test_message_used": "Hello, provide a sample response",
+  "actual_test_response": {
+    "status": "success",
+    "result": {
+      "summary": "The landmark Supreme Court judgments on Section 377 of the Indian Penal Code involve its decriminalization and the recognition of LGBT rights in India.",
+      "detailed_analysis": "Section 377 IPC, which criminalized consensual homosexual acts, was challenged in several cases leading to significant judgments. The key Supreme Court rulings include: \n1. **Suresh Kumar Koushal v. Naz Foundation (2014)**: The Supreme Court set aside a Delhi High Court judgment that had decriminalized homosexuality, effectively reinstating Section 377 IPC.\n2. **Navtej Singh Johar v. Union of India (2018)**: The Supreme Court unanimously held that consensual same-sex relationships between adults are not a crime, thus decriminalizing part of Section 377 IPC. This judgment was hailed as a milestone for LGBT rights in India. It recognized the right to equality and privacy for homosexual individuals and invalidated previous legal interpretations restricting these rights.",
+      "case_law": [
+        "Navtej Singh Johar v. Union of India (2018) 10 SCC 1",
+        "Suresh Kumar Koushal v. Naz Foundation (2014) 1 SCC 1"
+      ],
+      "statutory_provisions": "Section 377 IPC was partly invalidated regarding consensual sex between adults by the 2018 Supreme Court judgment.",
+      "practical_guidance": "As a result of the Navtej Singh Johar judgement, consensual homosexual acts are no longer criminal offenses. Legal professionals should ensure they are familiar with the changes in law concerning human rights and equality to provide accurate guidance.",
+      "disclaimer": "This response is for informational purposes only and should not be construed as legal advice. For specific legal advice, consult a qualified legal professional."
+    },
+    "metadata": {
+      "agent_name": "LexAssist Legal Agent",
+      "timestamp": "2023-11-24T09:02:33Z"
+    }
+  },
+  "test_passed": true
+}

@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "User Legal Query",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "lexassist_agent",
+      "type": "Agent",
+      "label": "LexAssist Legal Agent",
+      "nodeCategory": "agent",
+      "agent_id": "698588cae17e33c11eed19ce"
+    },
+    {
+      "id": "output_node",
+      "type": "Output",
+      "label": "Legal Response",
+      "nodeCategory": "end"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "lexassist_agent"
+    },
+    {
+      "source": "lexassist_agent",
+      "target": "output_node"
+    }
+  ]
+}
