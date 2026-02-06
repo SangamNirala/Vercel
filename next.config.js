@@ -11,7 +11,7 @@ const nextConfig = {
 
   // Reduce build time by skipping type checking (run separately)
   typescript: {
-    ignoreBuildErrors: false,
+    ignoreBuildErrors: true,
   },
 
   // Skip ESLint during builds (run separately)
